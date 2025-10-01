@@ -26,9 +26,18 @@ const Hero = () => {
 
       {/* Decorative right-side circles */}
       <div
-        className="absolute top-0 right-0 w-[160px] h-[160px] sm:w-[220px] sm:h-[220px] lg:w-[300px] lg:h-[300px] rounded-full transform translate-x-12 sm:translate-x-20 lg:translate-x-24 -translate-y-6 sm:-translate-y-8 lg:-translate-y-12"
-        style={{ backgroundColor: '#FF8000' }}
-      ></div>
+  className="absolute top-0 right-0 
+             w-[120px] h-[120px] 
+             sm:w-[180px] sm:h-[180px] 
+             lg:w-[260px] lg:h-[260px] 
+             rounded-full transform 
+             translate-x-16 sm:translate-x-24 lg:translate-x-28 
+             -translate-y-10 sm:-translate-y-14 lg:-translate-y-16 
+             z-0"
+  style={{ backgroundColor: '#FF8000' }}
+></div>
+
+
 
       <div
         className="absolute bottom-1/4 right-0 w-[160px] h-[160px] sm:w-[220px] sm:h-[220px] lg:w-[300px] lg:h-[300px] rounded-full transform translate-x-16 sm:translate-x-28 lg:translate-x-40 translate-y-4 sm:translate-y-6 lg:translate-y-8"
@@ -93,10 +102,14 @@ const Hero = () => {
             </div>
           </div>
 
-          <p className="text-base sm:text-lg md:text-xl mb-8 sm:mb-12 max-w-2xl md:max-w-3xl mx-auto" style={{ color: '#251464' }}>
-            Experience lightning-fast internet speeds with our premium fiber optic network. Choose from our
-            flexible packages designed to fit every need and budget.
-          </p>
+         <p 
+  className="relative z-10 text-base sm:text-lg md:text-xl mb-8 sm:mb-12 max-w-2xl md:max-w-3xl mx-auto" 
+  style={{ color: '#251464' }}
+>
+  Experience lightning-fast internet speeds with our premium fiber optic network. 
+  Choose from our flexible packages designed to fit every need and budget.
+</p>
+
 
           {/* Call-to-action buttons */}
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-8 sm:mb-12">
