@@ -25,23 +25,24 @@ const Hero = () => {
       ></div>
 
       {/* Decorative right-side circles */}
-      <div
+    <div
   className="absolute top-0 right-0 
-             w-[120px] h-[120px] 
-             sm:w-[180px] sm:h-[180px] 
-             lg:w-[260px] lg:h-[260px] 
+             w-[100px] h-[100px] 
+             sm:w-[160px] sm:h-[160px] 
+             lg:w-[240px] lg:h-[240px] 
              rounded-full transform 
-             translate-x-16 sm:translate-x-24 lg:translate-x-28 
-             -translate-y-10 sm:-translate-y-14 lg:-translate-y-16 
+             translate-x-12 sm:translate-x-20 lg:translate-x-24 
+             -translate-y-16 sm:-translate-y-20 lg:-translate-y-24 
              z-0"
-  style={{ backgroundColor: '#FF8000' }}
+  style={{ backgroundColor: '#251464' }}
 ></div>
+
 
 
 
       <div
         className="absolute bottom-1/4 right-0 w-[160px] h-[160px] sm:w-[220px] sm:h-[220px] lg:w-[300px] lg:h-[300px] rounded-full transform translate-x-16 sm:translate-x-28 lg:translate-x-40 translate-y-4 sm:translate-y-6 lg:translate-y-8"
-        style={{ backgroundColor: '#251464' }}
+        style={{ backgroundColor: '#FF8000' }}
       ></div>
 
       {/* Subtle hexagonal overlay */}
