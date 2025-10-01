@@ -7,10 +7,10 @@ const Hero = () => {
 
   return (
     <section id="home" className="bg-white min-h-screen flex items-center relative overflow-hidden">
-      {/* Top-left quarter of big orange circle */}
-      <div className="absolute bottom-0 left-0 w-[250px] h-[500px] overflow-hidden">
+      {/* Bottom-left orange circle */}
+      <div className="absolute bottom-0 left-0 w-[120px] h-[240px] sm:w-[180px] sm:h-[360px] lg:w-[250px] lg:h-[500px] overflow-hidden">
         <div
-          className="w-[500px] h-[500px] rounded-full"
+          className="w-[240px] h-[240px] sm:w-[360px] sm:h-[360px] lg:w-[500px] lg:h-[500px] rounded-full"
           style={{
             backgroundColor: '#FF8000',
             transform: 'translate(-50%, 50%)',
@@ -18,20 +18,20 @@ const Hero = () => {
         ></div>
       </div>
 
-      {/* NEW Top-left Purple Circle */}
+      {/* Top-left Purple Circle */}
       <div
-        className="absolute top-0 left-0 w-[400px] h-[400px] rounded-full transform -translate-x-1/3 -translate-y-1/3"
+        className="absolute top-0 left-0 w-[200px] h-[200px] sm:w-[280px] sm:h-[280px] lg:w-[400px] lg:h-[400px] rounded-full transform -translate-x-1/3 -translate-y-1/3"
         style={{ backgroundColor: '#251464' }}
       ></div>
 
       {/* Decorative right-side circles */}
       <div
-        className="absolute top-0 right-0 w-[300px] h-[300px] rounded-full transform translate-x-24 -translate-y-12"
+        className="absolute top-0 right-0 w-[160px] h-[160px] sm:w-[220px] sm:h-[220px] lg:w-[300px] lg:h-[300px] rounded-full transform translate-x-12 sm:translate-x-20 lg:translate-x-24 -translate-y-6 sm:-translate-y-8 lg:-translate-y-12"
         style={{ backgroundColor: '#FF8000' }}
       ></div>
 
       <div
-        className="absolute bottom-1/4 right-0 w-[300px] h-[300px] rounded-full transform translate-x-40 translate-y-8"
+        className="absolute bottom-1/4 right-0 w-[160px] h-[160px] sm:w-[220px] sm:h-[220px] lg:w-[300px] lg:h-[300px] rounded-full transform translate-x-16 sm:translate-x-28 lg:translate-x-40 translate-y-4 sm:translate-y-6 lg:translate-y-8"
         style={{ backgroundColor: '#251464' }}
       ></div>
 
@@ -44,65 +44,65 @@ const Hero = () => {
       ></div>
 
       {/* Hero content */}
-      <div className="container mx-auto px-4 text-center relative z-10">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           {/* Tagline bubble */}
           <div
-            className="inline-block bg-white rounded-full px-6 py-3 mb-8 shadow-lg border-2"
+            className="inline-block bg-white rounded-full px-4 sm:px-6 py-2 sm:py-3 mb-6 sm:mb-8 shadow-lg border-2"
             style={{ borderColor: '#1bc3ff' }}
           >
-            <p className="text-lg font-medium" style={{ color: '#251464' }}>
+            <p className="text-base sm:text-lg md:text-xl font-medium" style={{ color: '#251464' }}>
               Where Fast Internet Meets Real Affordability
             </p>
           </div>
 
           {/* Logo */}
-          <h1 className="mb-6 flex justify-center">
+          <h1 className="mb-4 sm:mb-6 flex justify-center">
             <img
               src="/logo.jpeg"
               alt="logo hero section"
-              className="w-full max-w-[500px] object-contain mx-auto"
+              className="w-full max-w-[220px] sm:max-w-[350px] md:max-w-[500px] object-contain mx-auto"
             />
           </h1>
 
           {/* Gradient line */}
           <div
-            className="h-2 w-full max-w-[400px] mx-auto rounded-full"
+            className="h-1 sm:h-2 w-full max-w-[250px] sm:max-w-[320px] md:max-w-[400px] mx-auto rounded-full"
             style={{
               background: 'linear-gradient(90deg, #1bc3ff, #4ade80, #FF8000, #FF0000)',
             }}
           ></div>
 
-          <p className="text-xl md:text-2xl font-bold mb-8" style={{ color: '#000000' }}>
+          <p className="text-lg sm:text-xl md:text-2xl font-bold mb-6 sm:mb-8" style={{ color: '#000000' }}>
             HOME FIBRE
           </p>
 
           {/* Feature highlights */}
-          <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-12">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-6 mb-8 sm:mb-12">
             <div className="flex items-center">
-              <span className="w-3 h-3 rounded-full mr-3" style={{ backgroundColor: '#FF0000' }}></span>
-              <span className="text-lg font-bold" style={{ color: '#FF0000' }}>
+              <span className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full mr-2 sm:mr-3" style={{ backgroundColor: '#FF0000' }}></span>
+              <span className="text-sm sm:text-lg font-bold" style={{ color: '#FF0000' }}>
                 Free Installation
               </span>
             </div>
             <div className="flex items-center">
-              <span className="w-3 h-3 rounded-full mr-3" style={{ backgroundColor: '#FF0000' }}></span>
-              <span className="text-lg font-bold" style={{ color: '#FF0000' }}>
+              <span className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full mr-2 sm:mr-3" style={{ backgroundColor: '#FF0000' }}></span>
+              <span className="text-sm sm:text-lg font-bold" style={{ color: '#FF0000' }}>
                 Free Router
               </span>
             </div>
           </div>
 
-          <p className="text-lg md:text-xl mb-12 max-w-3xl mx-auto" style={{ color: '#251464' }}>
+          <p className="text-base sm:text-lg md:text-xl mb-8 sm:mb-12 max-w-2xl md:max-w-3xl mx-auto" style={{ color: '#251464' }}>
             Experience lightning-fast internet speeds with our premium fiber optic network. Choose from our
             flexible packages designed to fit every need and budget.
           </p>
 
           {/* Call-to-action buttons */}
-          <div className="flex flex-col md:flex-row gap-4 justify-center mb-12">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-8 sm:mb-12">
             <button
               onClick={scrollToPackages}
-              className="px-8 py-4 rounded-full font-semibold text-lg transition shadow-lg"
+              className="px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg transition shadow-lg"
               style={{ backgroundColor: '#1bc3ff', color: 'white' }}
               onMouseEnter={(e) => (e.target.style.backgroundColor = '#0ea5e9')}
               onMouseLeave={(e) => (e.target.style.backgroundColor = '#1bc3ff')}
@@ -111,7 +111,7 @@ const Hero = () => {
             </button>
             <a
               href="tel:0719771913"
-              className="border-2 px-8 py-4 rounded-full font-semibold text-lg transition shadow-lg bg-white"
+              className="border-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg transition shadow-lg bg-white"
               style={{ borderColor: '#251464', color: '#251464' }}
               onMouseEnter={(e) => {
                 e.target.style.backgroundColor = '#251464';
