@@ -124,7 +124,7 @@ const Hero = () => {
               View Packages
             </button>
             <a
-              href="tel:0719771913"
+              href="tel:0717447792"
               className="border-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg transition shadow-lg bg-white"
               style={{ borderColor: '#251464', color: '#251464' }}
               onMouseEnter={(e) => {
