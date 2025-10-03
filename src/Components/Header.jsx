@@ -21,7 +21,6 @@ const Header = () => {
           <nav className="hidden md:flex space-x-8">
             <a href="#home" className="text-gray-700 hover:text-purple-600 transition">Home</a>
             <a href="#packages" className="text-gray-700 hover:text-purple-600 transition">Packages</a>
-            <a href="#about" className="text-gray-700 hover:text-purple-600 transition">About</a>
             <a href="#contact" className="text-gray-700 hover:text-purple-600 transition">Contact</a>
           </nav>
 
@@ -53,3 +52,5 @@ const Header = () => {
 };
 
 export default Header;
+//for future use
+/*<a href="#about" className="text-gray-700 hover:text-purple-600 transition">About</a>*/

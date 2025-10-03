@@ -4,7 +4,7 @@ const PackageCard = ({ package: pkg }) => {
   const handleSubscribe = () => {
     const phoneNumber = "254717447792"; 
     const message = encodeURIComponent(
-      `Hello, I’d like to subscribe to the ${pkg.name} package at ${pkg.price} per month.`
+      `Hello, I’d like to get connected to the ${pkg.name} package at ${pkg.price} per month.`
     );
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
   };
@@ -42,7 +42,7 @@ const PackageCard = ({ package: pkg }) => {
           onClick={handleSubscribe}
           className="w-full bg-gradient-to-r from-purple-600 to-blue-600 text-white py-3 px-6 rounded-full font-semibold hover:from-purple-700 hover:to-blue-700 transition"
         >
-          Subscribe Now
+          GET CONNECTED
         </button>
       </div>
     </div>
