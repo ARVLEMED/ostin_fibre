@@ -48,7 +48,7 @@ const Contact = () => {
 
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a 
-              href="tel:0719771913"
+              href="tel:0717447792"
               className="bg-orange-400 text-purple-900 px-8 py-4 rounded-full font-semibold text-lg hover:bg-purple-300 transition pulse-animation"
             >
               Call Now: 0717447792
