@@ -105,7 +105,7 @@ const Footer = () => {
     {/* Center: Copyright */}
     <div className="justify-self-center">
       <p className="text-gray-400 text-center">
-        &copy; 2024 OSTIN Internet Services. All rights reserved.
+        &copy; 2025 OSTIN Internet Services. All rights reserved.
       </p>
     </div>
 
