@@ -41,7 +41,7 @@ const Header = () => {
             <nav className="flex flex-col space-y-2">
               <a href="#home" className="text-gray-700 hover:text-purple-600 transition py-2">Home</a>
               <a href="#packages" className="text-gray-700 hover:text-purple-600 transition py-2">Packages</a>
-              <a href="#about" className="text-gray-700 hover:text-purple-600 transition py-2">About</a>
+              
               <a href="#contact" className="text-gray-700 hover:text-purple-600 transition py-2">Contact</a>
             </nav>
           </div>
@@ -53,4 +53,5 @@ const Header = () => {
 
 export default Header;
 //for future use
-/*<a href="#about" className="text-gray-700 hover:text-purple-600 transition">About</a>*/
+/*<a href="#about" className="text-gray-700 hover:text-purple-600 transition">About</a>
+<a href="#about" className="text-gray-700 hover:text-purple-600 transition py-2">About</a>*/
