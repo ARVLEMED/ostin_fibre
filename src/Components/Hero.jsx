@@ -6,9 +6,9 @@ const Hero = () => {
   
   // Array of image URLs for the carousel
   const carouselImages = [
-    '/carousel1.jpg',
-    '/carousel2.jpg',
-    '/carousel3.jpg',
+    '/carouselaust3.jpeg',
+    '/carousel4.jpeg',
+    '/carouselaust2.jpeg',
   ];
 
   useEffect(() => {

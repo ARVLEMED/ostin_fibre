@@ -47,6 +47,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
             <div className="space-y-2 text-gray-400">
               <p>Phone: 0717 447 792</p>
+              <p>Email: info@ostin.co.ke</p>
               <p>Paybill: 4167741</p>
               <p>Service: Kitengela, Kajiado County</p>
             </div>
