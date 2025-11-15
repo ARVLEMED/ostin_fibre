@@ -6,14 +6,14 @@ const InternetPackages = () => {
     {
       name: "SILVER",
       speed: "UP TO 5 MBPS",
-      price: "KES 1,069",
+      price: "KES 1,030",
       color: "from-gray-400 to-gray-600",
       features: ["Basic browsing", "Social media", "Email", "Light streaming"]
     },
     {
       name: "GOLD",
       speed: "UP TO 10 MBPS",
-      price: "KES 1,299",
+      price: "KES 1,250",
       color: "from-yellow-400 to-yellow-600",
       features: ["HD streaming", "Video calls", "Online gaming", "Multiple devices"],
       popular: true

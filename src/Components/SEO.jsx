@@ -10,7 +10,6 @@ const SEO = ({
   type = "website"
 }) => {
   const siteName = "OSTIN Internet Services";
-  const twitterHandle = "@ostinfiber";
 
   return (
     <Helmet>
@@ -19,8 +18,8 @@ const SEO = ({
       <meta name="title" content={title} />
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
-      
-      {/* Open Graph / Facebook */}
+
+      {/* Open Graph */}
       <meta property="og:type" content={type} />
       <meta property="og:url" content={url} />
       <meta property="og:title" content={title} />
@@ -28,34 +27,33 @@ const SEO = ({
       <meta property="og:image" content={image} />
       <meta property="og:site_name" content={siteName} />
       <meta property="og:locale" content="en_KE" />
-      
-      {/* Twitter */}
+
+      {/* Twitter (No Twitter handle) */}
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content={url} />
       <meta property="twitter:title" content={title} />
       <meta property="twitter:description" content={description} />
       <meta property="twitter:image" content={image} />
-      <meta property="twitter:creator" content={twitterHandle} />
-      
+
       {/* Additional Meta Tags */}
       <meta name="robots" content="index, follow" />
       <meta name="language" content="English" />
       <meta name="revisit-after" content="7 days" />
       <meta name="author" content="OSTIN Internet Services" />
-      
+
       {/* Geo Tags */}
       <meta name="geo.region" content="KE-200" />
       <meta name="geo.placename" content="Kitengela" />
       <meta name="geo.position" content="-1.4520;36.9630" />
       <meta name="ICBM" content="-1.4520, 36.9630" />
-      
+
       {/* Contact Information */}
       <meta name="contact" content="0717 447 792" />
       <meta name="coverage" content="Kitengela, Kajiado County, Kenya" />
-      
+
       {/* Canonical URL */}
       <link rel="canonical" href={url} />
-      
+
       {/* Structured Data - Local Business */}
       <script type="application/ld+json">
         {JSON.stringify({
@@ -78,8 +76,8 @@ const SEO = ({
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": -1.4520,
-            "longitude": 36.9630
+            "latitude": -1.477242,
+            "longitude": 36.963199
           },
           "openingHoursSpecification": {
             "@type": "OpeningHoursSpecification",
@@ -96,13 +94,12 @@ const SEO = ({
             "closes": "23:59"
           },
           "sameAs": [
-            "https://www.facebook.com/ostinfiber",
-            "https://www.tiktok.com/@ostin",
+            "https://www.tiktok.com/@ostin_offcial",
             "https://wa.me/254717447792"
           ]
         })}
       </script>
-      
+
       {/* Structured Data - Products/Services */}
       <script type="application/ld+json">
         {JSON.stringify({
@@ -116,7 +113,7 @@ const SEO = ({
               "description": "Basic fiber internet package with speeds up to 5 Mbps. Perfect for browsing and social media.",
               "offers": {
                 "@type": "Offer",
-                "price": "1069",
+                "price": "1030",
                 "priceCurrency": "KES",
                 "availability": "https://schema.org/InStock"
               }
@@ -128,7 +125,7 @@ const SEO = ({
               "description": "Mid-tier fiber internet package with speeds up to 10 Mbps. Ideal for HD streaming and video calls.",
               "offers": {
                 "@type": "Offer",
-                "price": "1299",
+                "price": "1250",
                 "priceCurrency": "KES",
                 "availability": "https://schema.org/InStock"
               }
